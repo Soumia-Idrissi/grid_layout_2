@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid_1-1-1{
+display: grid;
+gap: 10px; 
+background-color: rgb(229, 213, 237);
+} 
+
+@media(width>=500px){
+
+.grid_1-1-1{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
